@@ -8,9 +8,9 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-18.04
-    strategy:
-      matrix:
-        node-version: [12.x]
+    # strategy:
+    #   matrix:
+    #     node-version: [12.x]
     steps:
       - uses: actions/checkout@v2
 
