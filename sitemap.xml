@@ -7,15 +7,15 @@
   </url>
   
   <url>
-    <loc>https://blog.zzzzz.li/</loc>
-  </url>
-  
-  <url>
     <loc>https://blog.zzzzz.li/series/</loc>
   </url>
   
   <url>
     <loc>https://blog.zzzzz.li/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blog.zzzzz.li/</loc>
   </url>
   
 </urlset>
