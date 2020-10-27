@@ -16,7 +16,7 @@
             
             <guid>https://blog.zzzzz.li/posts/first-blog-post/</guid>
             <description>就第一篇博文嘛 这篇文章测试github的actions</description>
-            <content type="html"><![CDATA[<h1 id="就第一篇博文嘛">就第一篇博文嘛</h1>
+            <content type="html"><![CDATA[<h2 id="就第一篇博文嘛">就第一篇博文嘛</h2>
 <p>这篇文章测试github的actions</p>
 ]]></content>
         </item>
