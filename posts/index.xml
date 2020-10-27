@@ -1,0 +1,25 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on zzzzz.li</title>
+        <link>https://blog.zzzzz.li/posts/</link>
+        <description>Recent content in Posts on zzzzz.li</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-CN</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Tue, 27 Oct 2020 17:11:43 +0800</lastBuildDate>
+        <atom:link href="https://blog.zzzzz.li/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>再一次的你好世界...</title>
+            <link>https://blog.zzzzz.li/posts/first-blog-post/</link>
+            <pubDate>Tue, 27 Oct 2020 17:11:43 +0800</pubDate>
+            
+            <guid>https://blog.zzzzz.li/posts/first-blog-post/</guid>
+            <description>就第一篇博文嘛 这篇文章测试github的actions</description>
+            <content type="html"><![CDATA[<h1 id="就第一篇博文嘛">就第一篇博文嘛</h1>
+<p>这篇文章测试github的actions</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
