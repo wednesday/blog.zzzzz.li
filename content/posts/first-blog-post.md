@@ -8,6 +8,6 @@ tags:
   - untagged
 ---
 
-# 就第一篇博文嘛
+## 就第一篇博文嘛
 
 这篇文章测试github的actions
