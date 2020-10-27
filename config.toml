@@ -1,7 +1,7 @@
 baseURL      = "https://blog.zzzzz.li/"
 languageCode = "zh-CN"
 title        = "A.S."
-theme        = "hello-friend-ng"
+theme        = "hello"
 paginate     = 10
 
 [params]
