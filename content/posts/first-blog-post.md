@@ -5,9 +5,9 @@ draft: false
 toc: false
 images:
 tags:
-  - untagged
+  - Hugo
 ---
 
 ## 就第一篇博文嘛
 
-这篇文章测试github的actions
+这篇文章测试 github 的 `actions`.

@@ -5,6 +5,7 @@
   font-weight: bold;
   font-display: auto;
   font-family: monospace, monospace;
+  position: relative;
 
   img {
     height: 44px;
@@ -19,12 +20,13 @@
   }
 
   &__cursor {
-    display: inline-block;
-    width: 10px;
-    height: 1rem;
-    background: #fe5186;
-    margin-left: 5px;
-    border-radius: 1px;
+    display: block;
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    font-size: 12px;
+    color: #dcba00;
+    font-family: sans-serif, fantasy;
     animation: cursor 1s infinite;
   }
 
