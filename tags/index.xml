@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on zzzzz.li</title>
+    <title>Tags on 眠</title>
     <link>https://blog.zzzzz.li/tags/</link>
-    <description>Recent content in Tags on zzzzz.li</description>
+    <description>Recent content in Tags on 眠</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
+    <language>zh-cn</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 27 Oct 2020 17:11:43 +0800</lastBuildDate><atom:link href="https://blog.zzzzz.li/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>untagged</title>
-      <link>https://blog.zzzzz.li/tags/untagged/</link>
+      <title>Hugo</title>
+      <link>https://blog.zzzzz.li/tags/hugo/</link>
       <pubDate>Tue, 27 Oct 2020 17:11:43 +0800</pubDate>
       
-      <guid>https://blog.zzzzz.li/tags/untagged/</guid>
+      <guid>https://blog.zzzzz.li/tags/hugo/</guid>
       <description></description>
     </item>
     

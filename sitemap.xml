@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.zzzzz.li/tags/hugo/</loc>
+    <lastmod>2020-10-27T17:11:43+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.zzzzz.li/posts/</loc>
     <lastmod>2020-10-27T17:11:43+08:00</lastmod>
   </url>
@@ -13,17 +18,12 @@
   </url>
   
   <url>
-    <loc>https://blog.zzzzz.li/tags/untagged/</loc>
+    <loc>https://blog.zzzzz.li/posts/first-blog-post/</loc>
     <lastmod>2020-10-27T17:11:43+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://blog.zzzzz.li/</loc>
-    <lastmod>2020-10-27T17:11:43+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzzzz.li/posts/first-blog-post/</loc>
     <lastmod>2020-10-27T17:11:43+08:00</lastmod>
   </url>
   
