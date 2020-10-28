@@ -1,9 +1,11 @@
 baseURL      = "https://blog.zzzzz.li/"
-languageCode = "zh-cn"
-title        = "A.S."
+languageCode = "zh-CN"
+DefaultContentLanguage = "zh-CN"
+title        = "眠"
 theme        = "hello"
 paginate     = 10
 hasCJKLanguage=true
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
