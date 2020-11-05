@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>眠</title>
-    <link>https://blog.zzzzz.li/</link>
-    <description>Recent content on 眠</description>
+    <title>JavaScript on 眠</title>
+    <link>https://blog.zzzzz.li/tags/javascript/</link>
+    <description>Recent content in JavaScript on 眠</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 05 Nov 2020 11:19:58 +0800</lastBuildDate><atom:link href="https://blog.zzzzz.li/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Nov 2020 11:19:58 +0800</lastBuildDate><atom:link href="https://blog.zzzzz.li/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>从一个Bug说起</title>
       <link>https://blog.zzzzz.li/posts/javascript-type-from-a-bug/</link>
@@ -15,15 +15,6 @@
       
       <guid>https://blog.zzzzz.li/posts/javascript-type-from-a-bug/</guid>
       <description>JavaScript的类型判断 类型 基本类型 Undefined Null Boolean Number String Symble 复杂类型 Object Array RegExp Date Function (Set Map) 其他 Document Error .etc 判断方法 typeof let bool = true let num = 1 let str = &amp;#39;abc&amp;#39; let und = undefined let nul = null let arr</description>
-    </item>
-    
-    <item>
-      <title>再一次的你好世界...</title>
-      <link>https://blog.zzzzz.li/posts/first-blog-post/</link>
-      <pubDate>Tue, 27 Oct 2020 17:11:43 +0800</pubDate>
-      
-      <guid>https://blog.zzzzz.li/posts/first-blog-post/</guid>
-      <description>就第一篇博文嘛 这篇文章测试 github 的 actions.</description>
     </item>
     
   </channel>
