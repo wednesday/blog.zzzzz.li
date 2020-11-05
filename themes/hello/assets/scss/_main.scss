@@ -29,6 +29,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  transition: all 0.1s ease-out;
 
   @media #{$media-size-phone} {
     font-size: 1rem;

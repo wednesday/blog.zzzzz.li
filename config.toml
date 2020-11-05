@@ -13,7 +13,7 @@ hasCJKLanguage  = true
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "夏有虫,好眠,喜冷饮水,卧于冰,号眠虫."
+  homeSubtitle = "夏有虫,喜眠,卧于冰,号眠之虫"
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = false
