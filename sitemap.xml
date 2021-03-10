@@ -1,48 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://blog.zzzzz.li/tags/linux/</loc>
+    <lastmod>2021-03-10T16:44:27+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zzzzz.li/posts/linux-cached-too-large-problem/</loc>
+    <lastmod>2021-03-10T16:44:27+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zzzzz.li/posts/</loc>
+    <lastmod>2021-03-10T16:44:27+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zzzzz.li/tags/</loc>
+    <lastmod>2021-03-10T16:44:27+08:00</lastmod>
+  </url><url>
+    <loc>https://blog.zzzzz.li/</loc>
+    <lastmod>2021-03-10T16:44:27+08:00</lastmod>
+  </url><url>
     <loc>https://blog.zzzzz.li/tags/javascript/</loc>
     <lastmod>2020-11-05T11:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzzzz.li/posts/</loc>
-    <lastmod>2020-11-05T11:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzzzz.li/tags/</loc>
-    <lastmod>2020-11-05T11:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.zzzzz.li/posts/javascript-type-from-a-bug/</loc>
     <lastmod>2020-11-05T11:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.zzzzz.li/</loc>
-    <lastmod>2020-11-05T11:19:58+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.zzzzz.li/tags/hugo/</loc>
     <lastmod>2020-10-27T17:11:43+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.zzzzz.li/posts/first-blog-post/</loc>
     <lastmod>2020-10-27T17:11:43+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.zzzzz.li/blog/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blog.zzzzz.li/series/</loc>
   </url>
-  
 </urlset>

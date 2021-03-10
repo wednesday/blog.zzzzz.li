@@ -6,8 +6,69 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>cn</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 05 Nov 2020 11:19:58 +0800</lastBuildDate>
+        <lastBuildDate>Wed, 10 Mar 2021 16:44:27 +0800</lastBuildDate>
         <atom:link href="https://blog.zzzzz.li/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Linux Cached 过大问题</title>
+            <link>https://blog.zzzzz.li/posts/linux-cached-too-large-problem/</link>
+            <pubDate>Wed, 10 Mar 2021 16:44:27 +0800</pubDate>
+            
+            <guid>https://blog.zzzzz.li/posts/linux-cached-too-large-problem/</guid>
+            <description>Linux Cached 过大问题 某日,愉悦Coding. 负责人抛过来一个问题:“XXX说咱们的服务内存使用量过大,你接下来看看这个问题.” 此时的我一脸蒙蔽的ss</description>
+            <content type="html"><![CDATA[<h2 id="linux-cached-过大问题">Linux Cached 过大问题</h2>
+<p>某日,愉悦Coding.</p>
+<p>负责人抛过来一个问题:“XXX说咱们的服务内存使用量过大,你接下来看看这个问题.”</p>
+<p>此时的我一脸蒙蔽的ssh到VM上输入如下命令 <code>free -h</code> 此时bash显示</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">free -h
+            total        used        free      shared  buff/cache   available
+Mem:          11G        1.5G        3.5G        184M        6.6G        9.6G
+Swap:        4.0G          0B        4.0G
+</code></pre></div><p>懵逼的我不禁发出了感叹&ndash;这内存状况良好得运维看了都想给机器减配!</p>
+<p>只好再看看服务的状况了 于是我敲下了以下命令 <code>top</code> 映入眼帘的景象让我大呼上当</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"> PID USER   PR  NI VIRT RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ **** ****  <span style="color:#ae81ff">20</span>   <span style="color:#ae81ff">0</span> **** ****  **** S  21.3  2.2 147:22.09 node /home/www
+ **** ****  <span style="color:#ae81ff">20</span>   <span style="color:#ae81ff">0</span> **** ****  **** S  14.0  2.2 136:32.45 node /home/www
+ **** ****  <span style="color:#ae81ff">20</span>   <span style="color:#ae81ff">0</span> **** ****  **** S   5.3  2.6 145:11.27 node /home/www
+ **** ****  <span style="color:#ae81ff">20</span>   <span style="color:#ae81ff">0</span> **** ****  **** S   3.0  2.2 147:21.91 node /home/www
+</code></pre></div><p>平均每个进程3%不到的占用,怎么就内存使用过大了?</p>
+<p>由于感觉到事情已经超出了自己的认知能力,只好找到负责人:“我看服务状况蛮好啊,XXX为啥说过大?”</p>
+<p>XXX加入会话:“监控系统显示内存剩余量只有1.5G左右了,怕流量打起来出故障.”</p>
+<p>我一脸问号,并贴出了大大的❓❓❓</p>
+<p>老哥怕不是把cached内存算在不可使用内存范围了,后续沟通证明事实确实如此,误会接触.</p>
+<h3 id="那么为啥会产生这样的误会呢">那么为啥会产生这样的误会呢</h3>
+<p>我们搞前端的兄弟们写习惯了UI,少有接触linux知识,我们先来了解下Linux下的buff/cache memery 到底是个啥?</p>
+<ul>
+<li>
+<p>buff（Buffer Cache）是一种I/O缓存，用于内存和硬盘的缓冲，是io设备的读写缓冲区。根据磁盘的读写设计的，把分散的写操作集中进行，减少磁盘碎片和硬盘的反复寻道，从而提高系统性能。</p>
+</li>
+<li>
+<p>cache（Page Cache）是一种高速缓存，用于CPU和内存之间的缓冲 ,是文件系统的cache。把读取过的数据保存起来，重新读取时若命中（找到需要的数据）就不要去读硬盘了，若没有命中就读硬盘。其中的数据会根据读取频率进行组织，把最频繁读取的内容放在最容易找到的位置，把不再读的内容不断往后排，直至从中删除。</p>
+</li>
+</ul>
+<p>有心的小伙伴可以扩展查看<a href="https://tldp.org/LDP/sag/html/buffer-cache.html">《Linux System Administrators Guide:Chapter 6. Memory Management》</a></p>
+<p>简单点来说:Buffer Cache是即将写入磁盘的数据,Page Cache则是从磁盘中读取的数据.他们都占用内存,且都存储在RAM中.</p>
+<p>不过它们虽然都占用内存但是在合适的时机会被内核释放掉,而一般情况下不需要我们去关注cached内存,它的存在可以增加文件的读写性能.</p>
+<p>那么看到这里的看官可能已经猜到为啥我们这个服务的cached内存占用8Gb了&ndash;是的没错,写日志文件!</p>
+<p>好了今天的总结就到此为止.顺带贴上一篇贼出名的文章<a href="https://www.linuxatemyram.com/">《linux ate my ram》</a></p>
+<h3 id="但是有的人看着不爽">但是有的人看着不爽</h3>
+<p>既然看着不爽,那就只能手动或者定时任务来清理它啦!</p>
+<p>手动清理</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">server# sync <span style="color:#75715e">#一定要记得这个写入硬盘，防止数据丢失</span>
+server# echo <span style="color:#ae81ff">1</span> &gt; /proc/sys/vm/drop_caches
+server# echo <span style="color:#ae81ff">1</span> &gt; /proc/sys/vm/drop_caches
+server# echo <span style="color:#ae81ff">1</span> &gt; /proc/sys/vm/drop_caches
+</code></pre></div><p>写成脚本</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">#!/bin/bash
+</span><span style="color:#75715e"></span>echo <span style="color:#e6db74">&#34;清除cached缓存&#34;</span>
+sync
+sleep <span style="color:#ae81ff">10</span>
+echo <span style="color:#ae81ff">1</span> &gt; /proc/sys/vm/drop_caches
+echo <span style="color:#ae81ff">2</span> &gt; /proc/sys/vm/drop_caches
+echo <span style="color:#ae81ff">3</span> &gt; /proc/sys/vm/drop_caches
+</code></pre></div><p>然后就是创建该脚本的定时任务啦!</p>
+]]></content>
+        </item>
         
         <item>
             <title>从一个Bug说起</title>
