@@ -17,7 +17,7 @@ tags:
 
   这个游戏其实心水了好久(3.26就发售了)，但鉴于只能两个人一起玩，于是拖到了这次五一假期和对象的见面。
 
-  ![一起飞翔](https://img.zzzzz.li/blog/biQ8glh-edj9ZwT3cS1hc-u0.jpeg?imageMogr2/thumbnail/600x)
+  ![一起飞翔](https://img.zzzzz.li/blog/biQ8glh-edj9ZwT3cS1hc-u0.jpeg?imageMogr2/thumbnail/760x)
 
   《双人成行》（It Takes Two）是一款由雾影工作室开发，艺电以EA Originals为名发行的动作冒险平台游戏。玩过《逃出生天》这款游戏的可能知道该游戏的总监--约瑟夫·法尔斯，这个老哥在《双人成行》发布前对玩家大放厥词：
 
@@ -31,7 +31,7 @@ tags:
 
   在甜甜尝试了手柄的瞬间就放弃之后(单机游玩该游戏需要至少有一个熟悉手柄--我们是一个玩键盘一个玩手柄)，转向了键盘+鼠标控制，大概是她不习惯手柄的原因，这让我曾经想给她推荐一起玩《怪物猎人·rise》的想法泼了一盆冷水。
 
-  ![Game Start!](https://img.zzzzz.li/blog/14c1bffe4f.jpeg?imageMogr2/thumbnail/600x)
+  ![Game Start!](https://img.zzzzz.li/blog/14c1bffe4f.jpeg?imageMogr2/thumbnail/760x)
 
   她这一年的时间仅仅在假期能够跟我一起玩游戏，其他时间都是满满的安排--令人羡慕。
   
@@ -41,7 +41,7 @@ tags:
 
   游戏似乎没用太过于深刻的讨论，平铺直叙的讲述夫妻俩之间的故事。科迪只是个不修边幅、失去激情的男人，小梅只是个不顾家的工作狂，而罗斯只是名懂事又孤独的孩子，矛盾就这么简单。
 
-  ![一起飞翔](https://img.zzzzz.li/blog/biQ8glh-1ahjZhT3cS1hc-u0.jpeg?imageMogr2/thumbnail/600x)
+  ![一起飞翔](https://img.zzzzz.li/blog/biQ8glh-1ahjZhT3cS1hc-u0.jpeg?imageMogr2/thumbnail/760x)
 
   其实相比于太过平实的故事，游戏中的一部分角色塑造得还算鲜活。操着西班牙口音的哈金博士刻板而令人生厌，你同样能感受到科迪和小梅内心中变扭的情绪，两人的情感转变倒也不显突兀。再加上制作组设计了许多迪士尼般的搞怪卡通形象，比如军阀化的松鼠头子，整个过程让人眼花缭乱。
 
@@ -59,7 +59,7 @@ tags:
 
   游戏的每个关卡设计都有算是独特的玩法（有些人说是缝合怪，我也不反对，但能做成这样以至于脱离了缝合这个词而拥有自己的美感），解谜要素与战斗要素几乎一致，难度系数不高，手残党都能愉快的玩耍（你要是卡那里过不去的就当我没说哈哈哈你打我呀）。
 
-  ![地牢](https://img.zzzzz.li/blog/790.jpeg?imageMogr2/thumbnail/600x)
+  ![地牢](https://img.zzzzz.li/blog/790.jpeg?imageMogr2/thumbnail/760x)
 
   让我印象最深的，大概是一个地牢场景的合屏。两名玩家分别扮演战士和法师，以 60° 俯视角的形式进行探险。该关卡全程都没有分屏，完全可以拎出来当成另一款游戏。此外有些镜头在合屏的情况下带来了更强的视觉冲击力，比如雪域和钟楼里的横向卷轴视角，以及一个往上攀登阶梯的长镜头。
 
@@ -69,23 +69,23 @@ tags:
 
   游戏中令人印象深刻的部分当然也包括结局时:当梅和科迪拥抱在一起,整个游戏的故事剧情走向一个偏向与完美的结局,而此时我们方从这十余小时的震撼中回过神来.
 
-  ![梅和科迪](https://img.zzzzz.li/blog/IMG_2691_20210503-225617.JPG?imageMogr2/thumbnail/600x)
+  ![梅和科迪](https://img.zzzzz.li/blog/IMG_2691_20210503-225617.JPG?imageMogr2/thumbnail/760x)
 
   游戏中包含复数个精致的主题公园世界。摆满了玩具的小屋，玻璃球里的雪中探险，由模型构筑的奇幻城堡等等，其中有非常多的彩蛋和小游戏等着玩家探索。比如可以互动的相机，除了拍照和拉动焦距这种基础功能外，开发团队还精心搭建了几个可更换的场景，吐出的照片更是能实时挂到墙上，可惜的是结局的时候体现在片尾就更好了。
 
   第三幕的树下场景给我感觉最美的（当然最后一幕也不差，够炫酷），当脚下和身边的荧光逐渐亮起的时候，我俩都一边说着“真漂亮”，一边踩进水里、踩进空气。就好像体会到了主人公原本阴沉沉突然就明亮了起来的心情似的。
 
-  ![树下场景](https://img.zzzzz.li/blog/14c1bffe4f.jpeg?imageMogr2/thumbnail/600x)
+  ![树下场景](https://img.zzzzz.li/blog/14c1bffe4f.jpeg?imageMogr2/thumbnail/760x)
 
 ## 写在最后
 
   五一的第一天一起去国家大剧院听交响乐，回家路上各种闲聊，但一到家就抛之脑后了（笑～），这说明游戏的吸引力确实大吧。
 
-  ![去国家大剧院中](https://img.zzzzz.li/blog/20210508-IMG_2671.jpg?imageMogr2/thumbnail/600x)
+  ![去国家大剧院中](https://img.zzzzz.li/blog/20210508-IMG_2671.jpg?imageMogr2/thumbnail/760x)
 
-  ![国家大剧院](https://img.zzzzz.li/blog/20210508-IMG_2676-min.jpg?imageMogr2/thumbnail/600x)
+  ![国家大剧院](https://img.zzzzz.li/blog/20210508-IMG_2676-min.jpg?imageMogr2/thumbnail/760x)
 
-  ![票](https://img.zzzzz.li/blog/0145B55C-71C2-4DC2-B57C-B96D5D7EF535_1_105_c.jpeg?imageMogr2/thumbnail/600x)
+  ![票](https://img.zzzzz.li/blog/0145B55C-71C2-4DC2-B57C-B96D5D7EF535_1_105_c.jpeg?imageMogr2/thumbnail/760x)
 
   关于游戏的黑暗面：
 
