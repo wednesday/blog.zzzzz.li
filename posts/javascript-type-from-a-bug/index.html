@@ -188,7 +188,7 @@
 </span><span style="color:#75715e"></span><span style="color:#a6e22e">s</span> <span style="color:#66d9ef">instanceof</span> Object; <span style="color:#75715e">// true
 </span><span style="color:#75715e"></span>
 
-<span style="color:#a6e22e">s</span>.<span style="color:#a6e22e">__proto__</span> <span style="color:#f92672">=</span> Object.<span style="color:#a6e22e">prototype</span>;
+<span style="color:#a6e22e">s</span>.<span style="color:#ae81ff">__</span><span style="color:#a6e22e">proto__</span> <span style="color:#f92672">=</span> Object.<span style="color:#a6e22e">prototype</span>;
 
 <span style="color:#a6e22e">s</span> <span style="color:#66d9ef">instanceof</span> String; <span style="color:#75715e">// false
 </span><span style="color:#75715e"></span><span style="color:#a6e22e">s</span> <span style="color:#66d9ef">instanceof</span> Object; <span style="color:#75715e">// true
@@ -229,11 +229,11 @@
 Object.<span style="color:#a6e22e">prototype</span>.<span style="color:#a6e22e">toString</span>.<span style="color:#a6e22e">call</span>(<span style="color:#a6e22e">o</span>) <span style="color:#75715e">// [object Array]
 </span></code></pre></div><h4 id="衍生">衍生</h4>
 <p>lodash</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#a6e22e">_</span>.<span style="color:#a6e22e">isArrayLike</span>(<span style="color:#66d9ef">function</span>(){<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">arguments</span>}());
-<span style="color:#a6e22e">_</span>.<span style="color:#a6e22e">isArrayLike</span>([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
-<span style="color:#a6e22e">_</span>.<span style="color:#a6e22e">isArrayLike</span>(document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">children</span>)
-<span style="color:#a6e22e">_</span>.<span style="color:#a6e22e">isArrayLike</span>(<span style="color:#e6db74">&#39;abc&#39;</span>)
-<span style="color:#a6e22e">_</span>.<span style="color:#a6e22e">isNil</span>(<span style="color:#66d9ef">null</span><span style="color:#f92672">|</span><span style="color:#66d9ef">undefined</span>)
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-js" data-lang="js"><span style="color:#ae81ff">_</span>.<span style="color:#a6e22e">isArrayLike</span>(<span style="color:#66d9ef">function</span>(){<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">arguments</span>}());
+<span style="color:#ae81ff">_</span>.<span style="color:#a6e22e">isArrayLike</span>([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>, <span style="color:#ae81ff">3</span>])
+<span style="color:#ae81ff">_</span>.<span style="color:#a6e22e">isArrayLike</span>(document.<span style="color:#a6e22e">body</span>.<span style="color:#a6e22e">children</span>)
+<span style="color:#ae81ff">_</span>.<span style="color:#a6e22e">isArrayLike</span>(<span style="color:#e6db74">&#39;abc&#39;</span>)
+<span style="color:#ae81ff">_</span>.<span style="color:#a6e22e">isNil</span>(<span style="color:#66d9ef">null</span><span style="color:#f92672">|</span><span style="color:#66d9ef">undefined</span>)
 </code></pre></div><p>原生方法 Array.isArray() Number.isNaN()(isNaN()的问题是什么) etc.</p>
 <p>其实这是某天组内分享的准备内容,原因还要从一个bug说起.(然而这个bug我已经忘了,只剩下这么一篇干巴巴的记录)</p>
 
